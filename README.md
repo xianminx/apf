@@ -21,7 +21,7 @@ Example contains:
 2. Plugin Interface, as an Android Library Project
 3. Plugin Implementation, as an Android Application Project
   
-There is already an example plugin implementation signed by [Umeng](http://www.umeng.com) and hosted on [Umeng](http://www.umeng.com)'s server side. If you want to try it out and have a different implementation, please contact xuxianming @ umeng.com
+There is already an example plugin implementation signed by [Umeng](http://www.umeng.com) and hosted on [Umeng](http://www.umeng.com)'s server side. If you want to try it out and have a different implementation, please contact <a href="http://safemail.justlikeed.net/" target="_blank"><img src="http://safemail.justlikeed.net/e/ad5e50007565d95a4869afa1bd8d42c7.png" border="0" align="absbottom" title="Email image created with safemail.justlikeed.net"></a> 
 
 
 ## Creating Your APF Plugin
@@ -133,7 +133,7 @@ This will build a *release* mode plugin apk called *[project-name]-release.apk* 
 
 ### Warning
 > When to release your plugin, remember to update the key and keystore. Do not use the example key store used here. 
-> Caution: Since APF is in very pre-mature state, it's architecture and server side design is subject to change very frequently. For now, APF provided by [Umeng](http://www.umeng.com) does not allow any plugin signed by third party. If you want to try this out and want to deploy your plugin on [Umeng](http://www.umeng.com)'s platform, please develop your plugin first and contact us. After we check out that your plugin is secure, we can sign the plugin for you and host your plugin on  [Umeng](http://www.umeng.com)'s server. Please email to xuxianming at umeng.com. 
+> Caution: Since APF is in very pre-mature state, it's architecture and server side design is subject to change very frequently. For now, APF provided by [Umeng](http://www.umeng.com) does not allow any plugin signed by third party. If you want to try this out and want to deploy your plugin on [Umeng](http://www.umeng.com)'s platform, please develop your plugin first and contact us. After we check out that your plugin is secure, we can sign the plugin for you and host your plugin on  [Umeng](http://www.umeng.com)'s server. Please email to <a href="http://safemail.justlikeed.net/" target="_blank"><img src="http://safemail.justlikeed.net/e/ad5e50007565d95a4869afa1bd8d42c7.png" border="0" align="absbottom" title="Email image created with safemail.justlikeed.net"></a>. 
 We will open source implementation of APF when it's architecture design is freezed. 
 
 
