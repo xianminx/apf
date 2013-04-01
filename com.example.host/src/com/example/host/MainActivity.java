@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 						int b = Integer.parseInt(edit_b.getText().toString());
 
 						if (service != null) {
-							result.setText(service.add(a, b));
+							result.setText("" + service.add(a, b));
 						}
 					}
 
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
 						int b = Integer.parseInt(edit_b.getText().toString());
 
 						if (service != null) {
-							result.setText(service.minus(a, b));
+							result.setText("" + service.minus(a, b));
 						}
 					}
 
@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
 						int b = Integer.parseInt(edit_b.getText().toString());
 
 						if (service != null) {
-							result.setText(service.multiply(a, b));
+							result.setText("" + service.multiply(a, b));
 						}
 					}
 
@@ -99,7 +99,7 @@ public class MainActivity extends Activity {
 						int b = Integer.parseInt(edit_b.getText().toString());
 
 						if (service != null) {
-							result.setText(service.divide(a, b));
+							result.setText("" + service.divide(a, b));
 						}
 					}
 

@@ -1,0 +1,8 @@
+<!-- APF server configuration -->
+<resources>
+    <string name="apf_server">apf.umeng.com</string>
+    <string name="apf_server_port">80</string>
+    <string name="apf_server_update_endpoint">/apf/update</string>
+    <string name="pub_key_md5">d1e60bc54b1c1757623845b16992a3c2</string>
+    
+</resources>

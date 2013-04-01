@@ -7,44 +7,57 @@
     <EditText
         android:id="@+id/edit_a"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
+        android:layout_height="wrap_content"
         android:hint="a"
-        android:inputType="numberSigned"/>"
+        android:inputType="numberSigned"
+        android:maxLength="5" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="/" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/edit_b"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
+        android:layout_height="wrap_content"
         android:hint="b"
-        android:inputType="numberSigned"/>
-
-    <Button
-        android:id="@+id/button_add"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="+" />
-
-    <Button
-        android:id="@+id/button_minus"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="-" />
-
-    <Button
-        android:id="@+id/button_multiply"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="*" />
-
-    <Button
-        android:id="@+id/button_divide"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="/" />
+        android:inputType="numberSigned"
+        android:maxLength="5" />
 
     <TextView
         android:id="@+id/text_result"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
-        android:hint="result"/>
+        android:layout_height="wrap_content"
+        android:hint="result" />
+
 </LinearLayout>
